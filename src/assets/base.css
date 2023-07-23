@@ -1,0 +1,32 @@
+:root {
+  --color-background: #fff;
+  --color-text: #333;
+  --color-primary: #cf1b46;
+  --color-secondary: #367d91;
+  --color-accent: #2f8375;
+}
+@font-face { 
+  font-family: Rubik; 
+  src: url('./Rubik.woff2'); 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Rubik, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
