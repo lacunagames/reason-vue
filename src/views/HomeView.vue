@@ -60,7 +60,7 @@ const ctaList = [
 
 <script>
 export default {
-  name: 'App',
+  name: 'HomeView',
   data() {
     return {
       pageData: {

@@ -11,18 +11,18 @@ const router = createRouter({
     },
     {
       path: '/what-we-do',
-      name: 'whatWeDo',
-      component: () => import('../views/WhatWeDoView.vue')
+      name: 'what-we-do',
+      component: () => import('../views/WysiwygView.vue')
     },
     {
       path: '/the-digital-divide',
-      name: 'digitalDivide',
-      component: () => import('../views/DigitalDivideView.vue')
+      name: 'the-digital-divide',
+      component: () => import('../views/WysiwygView.vue')
     },
     {
       path: '/donate',
       name: 'donate',
-      component: () => import('../views/DonateView.vue')
+      component: () => import('../views/WysiwygView.vue')
     }
   ]
 })

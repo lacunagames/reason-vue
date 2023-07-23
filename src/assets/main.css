@@ -12,6 +12,11 @@
   }
 }
 
+::selection {
+  color: #fff;
+  background: #d74c6d;
+}
+
 h1, .h1 {
   font-size: 28px;
   font-weight: 400;
@@ -126,5 +131,10 @@ button:focus-visible,
 .main-loading {
   min-height: 1000px;
   background-color: #ececec;
+}
+
+.main-simple {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 

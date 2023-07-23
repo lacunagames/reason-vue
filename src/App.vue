@@ -25,7 +25,7 @@ const siteStore = useSiteStore()
     </div>
   </header>
 
-  <RouterView />
+  <RouterView :key="$route.fullPath" />
 
   <footer>
     <div class="container">
@@ -116,11 +116,6 @@ const siteStore = useSiteStore()
   .btn-underline {
     border-bottom: 4px solid var(--color-secondary);
     padding-bottom: 7px;
-  }
-
-  .main-simple {
-    margin-top: 40px;
-    margin-bottom: 60px;
   }
 
   footer {
